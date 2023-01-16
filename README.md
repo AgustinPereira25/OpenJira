@@ -1,4 +1,4 @@
-# Next.js OpenJira App
+# Next.js OpenJira App (Spanish)
 Para correr localmente se necesita la base de datos
 ...
 
@@ -27,3 +27,35 @@ http://localhost:3000/api/seed
 
 ```
 
+# Next.js OpenJira App (English)
+In order to run localhost we need database
+...
+
+docker-compose up -d
+...
+
+* Parameter -d means __detached__
+
+
+* MongoDB Local URL:
+
+```
+mongodb://localhost:27017/entriesdb
+```
+
+
+## Configure environment variables
+
+Rename file __.env.template__ to  __.env__
+
+
+## Fill database with testing info 
+
+Call:
+``` 
+http://localhost:3000/api/seed 
+
+```
+
+
+``` Made by Agustin Pereira. ``` 
